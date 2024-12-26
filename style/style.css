@@ -752,10 +752,12 @@ section.background-section {
 }
 
 /* Imagen del producto */
-.producto-imagen img {
+.producto-imagen .img1 {
     width: 800px;
     height: 500px;
     object-fit: cover;
+     background-repeat: no-repeat;
+   
 }
 
 /* Detalles del producto */
@@ -934,36 +936,39 @@ section.background-section {
 }
 
 .img1 {
-    background-image: url('/style/1cart.jpg');
+    background-image: url('./1cart.jpg');
     background-position: center -120px;
+    background-repeat: no-repeat;
 }
 
 .img2 {
-    background-image: url('/style/2cart.jpg');
+    background-image: url('./2cart.jpg');
     background-position: center -110px;
+    background-repeat: no-repeat;
 }
 
 .img3 {
-    background-image: url('/style/3cart.jpg');
+    background-image: url('./3cart.jpg');
     background-position: center -110px;
+    background-repeat: no-repeat;
 }
 
 .img4 {
-    background-image: url('/style/5cart.jpg');
+    background-image: url('./5cart.jpg');
     background-position: center -250px;
     background-size: 800px;
     background-repeat: no-repeat;
 }
 
 .img5 {
-    background-image: url('/style/4cart.jpg');
+    background-image: url('./4cart.jpg');
     background-position: center -120px;
     background-size: 800px;
     background-repeat: no-repeat;
 }
 
 .img6 {
-    background-image: url('/style/6cart.jpg');
+    background-image: url('./6cart.jpg');
     background-position: center -190px;
     background-size: 800px;
     background-repeat: no-repeat;
@@ -1100,6 +1105,7 @@ MEDIA QUERI 1 GRID CAMPAÑA
         height: 300px; /* Ajuste de la imagen en móviles */
         background-position: center;
         background-size: cover;
+        background-repeat: no-repeat;
     }
 
     .producto-imagen img {
@@ -1176,39 +1182,43 @@ MEDIA QUERI 1 GRID CAMPAÑA
         width: 90%;
         height: 500px;
         background-size: cover;
+        background-repeat: no-repeat;
     }
     
     .img1 {
-        background-image: url('/style/1cart.jpg');
-        background-position: center -330px;
+        background-image: url('./1cart.jpg');
+        background-position: center -25px;
+        background-repeat: no-repeat;
     }
     
     .img2 {
-        background-image: url('/style/2cart.jpg');
-        background-position: center -200px;
+        background-image: url('./2cart.jpg');
+        background-position: center -100px;
+        background-repeat: no-repeat;
     }
     
     .img3 {
-        background-image: url('/style/3cart.jpg');
+        background-image: url('./3cart.jpg');
         background-position: center -240px;
+        background-repeat: no-repeat;
     }
     
     .img4 {
-        background-image: url('/style/5cart.jpg');
+        background-image: url('./5cart.jpg');
         background-position: center -250px;
         background-size: 800px;
         background-repeat: no-repeat;
     }
     
     .img5 {
-        background-image: url('/style/4cart.jpg');
+        background-image: url('./4cart.jpg');
         background-position: center -120px;
         background-size: 800px;
         background-repeat: no-repeat;
     }
     
     .img6 {
-        background-image: url('/style/6cart.jpg');
+        background-image: url('./6cart.jpg');
         background-position: center -190px;
         background-size: 800px;
         background-repeat: no-repeat;
