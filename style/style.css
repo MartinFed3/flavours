@@ -1223,6 +1223,21 @@ MEDIA QUERI 1 GRID CAMPAÑA
         background-size: 800px;
         background-repeat: no-repeat;
     }
+
+    .comprar {
+        background-color:  #c7c7c7;
+        color: white;
+        border: none;
+        padding: 1rem;
+        padding-left: 9rem;
+        padding-right: 9rem;
+        width: 100%;
+        font-size: 1.2rem;
+        cursor: pointer;
+        margin-top: 1rem;
+        transition: background-color 0.3s ease;
+        border-radius: 18px;
+    }
 }
 
 
