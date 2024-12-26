@@ -1045,8 +1045,8 @@ MEDIA QUERI 1 GRID CAMPAÑA
         padding: 1rem;
     }
      .image-left, .image-right {
-        height: 400px; /* Mantener la altura si ya estaba configurada */
-        min-height: 250px; /* Asegura que las imágenes no desaparezcan completamente */
+        height: 400px;
+        min-height: 250px; 
     }
 
     .text-right h3 {
@@ -1249,13 +1249,13 @@ MEDIA QUERI 1 GRID CAMPAÑA
     max-width: 1000px;
     margin: 0 auto;
     padding: 2rem;
-    flex-direction: column;  /* Cambia la disposición a columna (uno debajo del otro) */
+    flex-direction: column;  
     text-align: center;  
 
 }
  .image-left, .image-right {
-    height: 400px; /* Mantener la altura si ya estaba configurada */
-    min-height: 650px; /* Asegura que las imágenes no desaparezcan completamente */
+    height: 400px; 
+    min-height: 650px; 
     
 }
 
@@ -1337,30 +1337,76 @@ MEDIA QUERI 1 GRID CAMPAÑA
     background-size: cover;
 }
 
+/*newsletter 860*/
+.contenedor-nl {
+    margin-top: 1rem;
+}
+
+.bg-image {
+    padding: 8rem;
+    background-position: center;
+}
+
+.image-overlay {
+    padding: 1.5rem; 
+}
+
+.image-overlay h3 {
+    font-size: 1.2rem; 
+    margin-bottom: 1rem;
+    letter-spacing: 3px; 
+}
+
+.image-overlay .buttons {
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.image-overlay .btn {
+    padding: 0.6rem 2.5rem; 
+    font-size: 0.9rem; 
+    border-radius: 10px; 
+}
+
+.image-overlay .btn-mail {
+    font-size: 0.9rem; 
+    padding: 0.6rem 2.5rem; 
+}
+
+.image-overlay .btn-register {
+    font-size: 0.9rem; 
+    padding: 0.6rem 2.5rem; 
+}
 
 
 
-/*footer*/
+/*footer 860*/
 .footer-content {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-left: 1rem;
+   
 }
 
 .footer-left,
 .footer-right {
     
     margin-bottom: 2rem;
+    width: 100%;
+    
 }
 
 .footer-right {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    width: 100%;
 }
 
 .footer-right p {
-    margin-right: 0;
+  width: 100%;
+
 }
 
 .footer-bottom {
@@ -1368,8 +1414,16 @@ MEDIA QUERI 1 GRID CAMPAÑA
     text-align: center;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
+.text-footer{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
 }
 
 
@@ -1405,8 +1459,8 @@ MEDIA QUERI 1 GRID CAMPAÑA
 
 }
  .image-left, .image-right {
-    height: 400px; /* Mantener la altura si ya estaba configurada */
-    min-height: 650px; /* Asegura que las imágenes no desaparezcan completamente */
+    height: 400px; 
+    min-height: 650px; 
     
 }
 
@@ -1447,6 +1501,83 @@ MEDIA QUERI 1 GRID CAMPAÑA
     padding-top: 20rem;
 }
 
+/*imagenes de campañas fotografia*/
+
+.coleccion {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    justify-items: center;  
+    align-items: center;
+   
+}
+
+.grid__container {
+    width: 100%;
+    max-width: 100%;
+   
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 0.5fr)); 
+   
+  
+    grid-auto-flow: dense;
+    gap: 0.8rem;
+   
+}
+
+.grid__item {
+    background-repeat: no-repeat;
+    filter: brightness(1.3);
+    box-shadow: 1px 2px 3px rgba(36, 36, 36, 0.404);
+    transition: transform 0.3s ease; 
+    border-radius: 5px; 
+    overflow: hidden; 
+}
+
+.grid__item:nth-child(1) {
+    background-image: url(galeria/galeria1.jpg);
+   
+    background-position: bottom;
+    background-size: cover;
+}
+
+.grid__item:nth-child(2) {
+    background-image: url(galeria/galeria2.jpg);
+   
+  
+    background-position: center 28%;
+    background-size: cover;
+}
+
+.grid__item:nth-child(3) {
+    background-image: url(galeria/galeria3.jpg);
+    background-position: center 18%;
+    background-size: cover;
+    
+    
+   
+}
+
+.grid__item:nth-child(4) {
+    background-image: url(galeria/galeria4.jpg);
+   
+    
+    background-position: center 35%;
+    background-size: cover;
+
+}
+
+.grid__item:nth-child(5) {
+    background-image: url(galeria/galeria5.jpg);
+   
+   
+    background-position: center 25%;
+    background-size: cover;
+}
+
+.grid__item:hover {
+    transform: scale(1.02); 
+}
 
     
     
