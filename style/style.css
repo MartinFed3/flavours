@@ -1042,7 +1042,7 @@ MEDIA QUERI 1 GRID CAMPAÑA
         padding: 8px 16px;
     }
     
-    /*pagina html campañas*/
+    /*pagina html campañas 1290px*/
 
     .contenedor {
         max-width: 1000px;
@@ -1272,7 +1272,7 @@ MEDIA QUERI 1 GRID CAMPAÑA
 
  .contenedor {
     max-width: 1000px;
-    margin: 0 auto;
+    margin-top: 1rem auto;
     padding: 2rem;
     flex-direction: column;  
     text-align: center;  
@@ -1314,9 +1314,32 @@ MEDIA QUERI 1 GRID CAMPAÑA
     padding-top: 20rem;
 }
 
+.text-right p {
+    font-size: 1rem;  /* Reducir el tamaño de la fuente */
+    line-height: 1.4; /* Ajustar el interlineado para mejorar la legibilidad */
+}
+
+/* Sección 2: Imagen a lo ancho */
+.image-full-width {
+    height: 300px; /* Reducir la altura para dispositivos móviles */
+    background-position: center -180px; /* Ajustar la posición de la imagen */
+}
+
+/* Sección 3: Dos fotos cuadradas */
+.image-grid {
+    grid-template-columns: 1fr; /* Cambiar a una sola columna para móviles */
+     /* Ajustar la altura de las imágenes */
+}
+
+.grid-item {
+    height: 250px; /* Reducir la altura de las imágenes en el grid */
+    background-position: center -200px; /* Centrar las imágenes */
+}
 
 
-/*Campaña grilla imagenes*/
+
+
+/*Campaña grilla imagenes del Index 860px*/
 
 
 
@@ -1452,7 +1475,7 @@ MEDIA QUERI 1 GRID CAMPAÑA
 }
 
 
-/* Media Query para pantallas de 480px */
+/* Media Query para pantallas de 670px */
 @media (max-width: 670px) {
     .hero {
         padding-top: 6rem; 
@@ -1474,7 +1497,9 @@ MEDIA QUERI 1 GRID CAMPAÑA
         padding-right: 1rem;
     }
 
-    
+    /* Página de Campañas 670px*/
+
+  
  .contenedor {
     max-width: 1000px;
     margin: 0 auto;
@@ -1523,10 +1548,14 @@ MEDIA QUERI 1 GRID CAMPAÑA
 .left-right{
     display: grid;
     
-    padding-top: 20rem;
+    padding-top: 2rem;
 }
+/*pagina de campañas/*
 
-/*imagenes de campañas fotografia*/
+.
+
+    
+/*imagenes de campañas fotografia INDEX*/
 
 .coleccion {
     margin-bottom: 1rem;
@@ -1561,7 +1590,7 @@ MEDIA QUERI 1 GRID CAMPAÑA
 
 .grid__item:nth-child(1) {
     background-image: url(galeria/galeria1.jpg);
-   
+    background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
 }
@@ -1569,8 +1598,8 @@ MEDIA QUERI 1 GRID CAMPAÑA
 .grid__item:nth-child(2) {
     background-image: url(galeria/galeria2.jpg);
    
-  
-    background-position: center 28%;
+  background-repeat: no-repeat;
+    background-position: center 18%;
     background-size: cover;
 }
 
@@ -1578,14 +1607,14 @@ MEDIA QUERI 1 GRID CAMPAÑA
     background-image: url(galeria/galeria3.jpg);
     background-position: center 18%;
     background-size: cover;
-    
+    background-repeat: no-repeat;
     
    
 }
 
 .grid__item:nth-child(4) {
     background-image: url(galeria/galeria4.jpg);
-   
+   background-repeat: no-repeat;
     
     background-position: center 35%;
     background-size: cover;
@@ -1594,7 +1623,7 @@ MEDIA QUERI 1 GRID CAMPAÑA
 
 .grid__item:nth-child(5) {
     background-image: url(galeria/galeria5.jpg);
-   
+    background-repeat: no-repeat;
    
     background-position: center 25%;
     background-size: cover;
